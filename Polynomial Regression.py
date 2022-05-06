@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
 
 # Importing the dataset
-dataset = pd.read_csv('/content/sample_data/california_housing_test.csv') 
+dataset = pd.read_csv('Enter the path to your dataset of choice') 
 print(dataset)
 x=dataset['median_income']
 y=dataset['median_house_value']
